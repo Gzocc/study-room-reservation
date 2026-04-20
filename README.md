@@ -335,7 +335,7 @@ npm run build
 
 ## 更新日志
 
-### v1.0.0 (2024-XX-XX)
+### v1.0.0 (2026-4-20)
 - ✅ 完成基础功能开发
 - ✅ 支持多角色权限管理
 - ✅ 座位预约、签到、签退
@@ -352,10 +352,6 @@ npm run build
 4. 推送分支 (`git push origin feature/xxx`)
 5. 创建 Pull Request
 
-## 许可证
-
-[MIT](LICENSE)
-
----
 
 Made with ❤️ by Hope
+所有解释权由Gzocc占有
