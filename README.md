@@ -181,14 +181,16 @@ curl -X POST http://localhost:8080/api/auth/register \
 
 ## 系统演示
 
- Coming soon... (正在截图)
 ### 登录页
 ![Login](images/login.png)
 
 ### 学生端 - 预约座位
 ![Student Reserve](images/student-reserve.png)
 
-### 管理端 - 数据看板
+### 管理端 - 教室管理
+![Admin Rooms](images/admin-rooms.png)
+
+### 超管端 - 数据总管
 ![Admin Dashboard](images/admin-dashboard.png)
 
 ## API 接口文档
