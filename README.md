@@ -181,7 +181,7 @@ curl -X POST http://localhost:8080/api/auth/register \
 
 ## 系统演示
 
- Coming soon...
+ Coming soon... (正在截图)
 ### 登录页
 ![Login](docs/images/login.png)
 
