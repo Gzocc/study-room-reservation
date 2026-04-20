@@ -1,0 +1,42 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/study_room?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      database: 0
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+
+jwt:
+  secret: study-room-reservation-jwt-secret-key-2024
+  expiration: 86400000  # 24小时
+
+app:
+  # 签到提前时间（分钟）- 预约开始前多久可以签到
+  checkin-early: 30
+  # 签到超时时间（分钟）- 预约开始后多久内可以签到
+  checkin-timeout: 60
+  # 最大违约次数
+  max-violation: 5
+  # 单次预约最大时长（小时）
+  max-duration: 4
+  # 提前预约天数
+  advance-days: 3
