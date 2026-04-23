@@ -345,16 +345,15 @@ npm run build
 - ✅ 违约检测与记录
 - ✅ 操作日志
 
-## 贡献指南
+## 结语
 
-欢迎提交 Pull Request！
+欢迎提交 欢迎各位大佬指正！
 
 1. Fork 本仓库
 2. 创建特性分支 (`git checkout -b feature/xxx`)
 3. 提交更改 (`git commit -m 'Add xxx'`)
 4. 推送分支 (`git push origin feature/xxx`)
 5. 创建 Pull Request
-
 
 Made with ❤️ by Hope
 所有解释权由Gzocc占有
